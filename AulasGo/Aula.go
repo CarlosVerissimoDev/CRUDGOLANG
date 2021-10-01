@@ -104,6 +104,7 @@ func ExcluirDenuncias2()  {
 }
 
 func AdicionarDenuncias2(){
+	fmt.Printf("Informe a sua denuncia: ")
 	fmt.Scanf("%s", &denuncia)
 	Denuncias = append(Denuncias, denuncia)
 	Menu()
